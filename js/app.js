@@ -1,6 +1,7 @@
 
 if (navigator.serviceWorker) {
-    navigator.serviceWorker.register("/sw.js");
+    const rutaSW = window.location.href.includes("localhost") ? "/sw.js" : "/pruebaPWA/sw.js";
+    navigator.serviceWorker.register(rutaSW);
 }
 
 // Referencias de jQuery

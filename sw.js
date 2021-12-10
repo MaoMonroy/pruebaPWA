@@ -5,7 +5,8 @@ const CACHE_DINAMICO = "dinamico-v1";
 const CACHE_INMUTABLE = "inmutable-v1";
 
 const CONT_ESTATICO = [
-    '/', 'index.html',
+    //'/', 
+    'index.html',
     'css/style.css',
     'img/favicon.ico',
     'img/avatars/hulk.jpg',
